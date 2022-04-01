@@ -1,10 +1,9 @@
 import './App.scss';
+import SignUp from './components/sign-up';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <SignUp></SignUp>
   );
 }
 
